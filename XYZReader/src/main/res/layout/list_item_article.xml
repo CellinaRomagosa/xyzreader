@@ -16,14 +16,12 @@
         android:orientation="vertical">
 
         <!--suppress AndroidLintContentDescription -->
-        <com.android.volley.toolbox.NetworkImageView
-            android:id="@+id/thumbnail"
+        <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+          android:id="@+id/thumbnail"
             android:background="@color/photo_placeholder"
-            android:adjustViewBounds="true"
-            android:scaleType="fitCenter"
             android:layout_width="match_parent"
             android:transitionName="photo"
-            android:layout_height="wrap_content"/>
+            android:layout_height="0dp"/>
 
         <TextView
             android:id="@+id/article_title"
